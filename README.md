@@ -5,6 +5,7 @@
 
 ## DESKTOP 
 
-![instagram-desktop](https://user-images.githubusercontent.com/72458974/177202225-8634b043-6b38-43cc-9e64-0cfdf8384e1b.png)
+![instagram-desktop](https://user-images.githubusercontent.com/72458974/177202590-e29051c5-1027-41dd-8c7a-bd30b29d5012.png)
+
 
 
