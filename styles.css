@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(243, 243, 243);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center
+  
+}
+
+.info-boxes {
+  display: flex;
+  flex-direction: column;
+}
+
+#cell-instagram{
+    height: 550px;
+    margin-right: 24px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  padding: 16px 8px;
+  align-items: center;
+  height: 400px;
+  justify-content:  space-evenly;
+  width: 350px;
+}
+
+.login input{
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid lightgray;
+}
+
+
+
+button{
+    border: none;
+    background-color: rgb(125, 125, 255);
+    color: #fff;
+    width: 100%;
+    padding: 5px 5px;
+    margin-bottom: 8px;
+   
+}
+
+.login span{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.icon-facebook {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+
+.sign-up {
+  display: flex;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 16px;
+  width: 350px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-links {
+  display: flex;
+  justify-content: center;
+}
+.app-links img {
+  height: 55px;
+  width: 140px;
+  padding: 8px;
+}
+
+.footer {
+  bottom: 0;
+  position: fixed;
+}
+
+.footer a {
+  color: gray;
+  padding: 8px;
+  margin: 10px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .container {
+        width: 90%;    
+    }
+
+    #cell-instagram {
+        display: none;
+    }
+    
+    .info-boxes {
+        width: 100%;
+        border: 1px solid transparent;
+    }
+    
+    
+}
